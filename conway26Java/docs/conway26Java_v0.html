@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <!--
+<link rel="stylesheet" type="text/css" href="../css/issStyle1.css">
+<script type="text/javascript" src="../css/issStyle.js"></script>
+-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"crossorigin="anonymous"></script> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./commons/resources/styles/templateISS.css">
+        <link rel="stylesheet" type="text/css" href="./commons/resources/styles/main.css">
+        <link rel="stylesheet" type="text/css" href="./commons/resources/styles/navbar.css">
+        <link rel="stylesheet" type="text/css" href="./commons/resources/styles/table.css">
+        <link rel="stylesheet" type="text/css" href="./commons/resources/styles/code.css">
+        <!-- <script type="text/javascript" src="./commons/resources/scripts/myScripts.js"></script> -->
+<style type="text/css">
+body
+{
+    margin-left:  30px;
+    margin-right: 30px;
+};
+
+P
+{
+    font-family: Tahoma;
+    font-size: 10pt;
+};
+
+a, a:visited, a:active, a:link, a:hover {
+    text-decoration: underline;
+    color: #545454;
+    background-color: transparent;
+	font-size: 93%;
+}
+
+a:hover {
+    background-color: #cccccc;
+}
+
+
+hr {
+    clear: both;
+    height: 1px;
+    color: #242424;
+    background-color: transparent;
+}
+
+h1, h2, h3 {
+    color: #242424;
+    clear: left;
+    font: 100% Tahoma, Helvetica, Arial, sans-serif;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+top {
+	width: 100%;
+}
+
+
+#i {
+    color: #ff1010;
+}
+tt{
+	font-family: "Arial";
+    font-size: 90%;
+	color: #006600;
+}
+em{
+	font-family: "Arial";
+    font-size: 80%;
+	font-weight: bold;
+	border-style:solid;
+	border-color: #abe876;
+    color: #1632cc;
+}
+bc{
+	font-family: "Arial";
+	font-size: 90%;
+	font-weight: bold;
+    color: #990000;
+	background-color: #fcf8c7;
+}
+ks{
+	font-family: "Arial";
+	font-weight: bold;
+    color: #0000CD	;
+	font-size: 90%;
+}
+kc{
+	font-family: "Arial";
+	font-weight: bold;
+    color: #008000	;
+	font-size: 90%;
+}
+pre{
+	font-family: "Consolas";
+	font-size: 85%;
+	background-color: #f5f5f5;
+	border: 1.5px solid silver;
+	padding: 5px;
+}
+m{
+	font-family: "Helvetica";
+	line-height: 100%;
+ 	font-size: 75%;
+}
+div.body{
+	 
+    font-size: 18px;
+}
+k{
+    color: #990000;
+	font-weight: bold;
+	font-size: 90%;
+}
+h1 {
+    font-size: 150%;
+    background-color: #b2c0ff;
+	padding: 10px;
+}
+
+h2 {
+    background-color: #9ed8ff;
+    font-size: 130%;
+}
+
+h3 {
+	background-color: #e6ccff;
+    font-size: 100%;
+}
+h4 {
+    background-color: #ccffcc;
+    font-size: 100%;
+	width: 95%;
+	border-radius: 5px;
+	padding: 2px;
+}
+h5 {
+    background-color: #d5ffb0;
+    font-size: 100%;
+
+}
+div.req{
+	background-color: #d9ffb3;
+    font-size: 18px;
+	width: 700px;
+    border: 3px solid green;
+    padding: 15px;
+    margin: 10px;
+}
+div.remark{
+	background-color: #E3F2FD;
+    border: 1.5px solid #d5f2ed;
+    padding: 15px;
+    margin: 10px;
+	border-radius: 25px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+ol, ul, li {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+img {
+	border: 1.5px solid #d5f2ed
+
+}
+
+a, a:visited, a:active, a:link, a:hover {
+    text-decoration: underline;
+    color: #545454;
+    background-color: transparent;
+}
+
+div.wrapdesc{
+	width: 90%;
+	margin: auto;
+}
+
+div.imagedesc{
+	width: 85%;
+	margin: auto;
+}
+</style>
+    
+ 
+   
+</head>
+	
+		
+  
+
+
+   
+<title>TemplateToFill</title></head>
+    
+<!--
+	<body onload="loadNav();">
+		<div id="openButton" class="openButton" onclick="openNav(true)">&#9776; Menu</div>
+		<div id="sidenav" class="sidenav">
+			<a class="closeButton" href="javascript:void(0)" onclick="closeNav(true)">&times;</a>
+			<a href=".README.html">ReadMe</a>
+			<a class="sprint" href="../../../Sprint0/Codice/userDocs/Cold%20Storage%20Service%20-%20Natali%20V3.html">Sprint0</a>
+			<a class="sprint" href="../../../Sprint1.0/Codice/userDocs/Sprint%201.0%20-%20V3.html">Sprint1.0</a>
+			<a class="sprint" href="../../../Sprint1.1/Codice/userDocs/Sprint%201.1%20-%20V3.html">Sprint1.1</a>
+			<a id="currentSprint" class="sprint" href="#">&#8211;&#8212; Sprint2 &#8212;&#8211;</a>
+			<div class="sidenavSection">
+				<a href="#Goal Sprint 2">Goal Sprint 2</a>
+				<a href="#Requisiti">Requisiti</a>
+				<a href="#Analisi dei Requisiti">Analisi dei Requisiti</a>
+				<a href="#Analisi del Problema">Analisi del Problema</a>
+				<a href="#Test Plan">Test Plan</a>
+				<a href="#Progettazione">Progettazione</a>
+				<a href="#Deployment">Deployment</a>
+			</div>
+			<p class="separator">&mdash;&mdash;&mdash;&ndash;&ndash;&mdash;&mdash;&mdash;</p>
+			<a class="sprint" href="../../../Sprint3/Codice/userDoc/Sprint%203.html">Sprint3</a>
+			<bottom-spacer/>
+		</div>
+-->
+<body>
+<div id="top">
+<h1>LABORATORIO DI INGEGNERIA DEI SISTEMI SOFTWARE <font size="5"></font> </h1>
+</div>  
+
+<div class="body"> 
+<h2>Introduction</h2>
+ 
+ 
+<h2>Requirements</h2>
+
+<li><p>Realizzare una versione in Java del gioco <strong>Life</strong> di Conway, come gioco zero-player.
+	<ol class="arabic simple">
+	<li><p>Realizzare una versione in Java del gioco <strong>Life</strong> di Conway, come gioco zero-player.
+	Il gioco consiste nell’introdurre una <strong>Griglia</strong> di <strong>Celle</strong>
+	il cui stato (cella ‘viva’ o cella ‘morta’) evolve come stabilito dallle
+	<a class="reference external" href="_static/docs/Protobook.pdf#chapter.6">regole di ConwayLife</a></p></li>
+	<li><p>L’utente umano deve poter:</p>
+	<ul class="simple">
+	<li><p>specificare la configurazione iniziale della griglia del gioco</p></li>
+	<li><p>vedere l’evoluzione del gioco in forma opportuna
+	(si veda <a class="reference external" href="_static/docs/Protobook.pdf#section.6.3">Problema della vista del gioco</a>)</p></li>
+	<li><p>fermare e far ripartire l’evoluzione del gioco</p></li>
+	<li><p>pulire (a gioco fermo) la configurazione della griglia del gioco</p></li>
+	</ul>
+	</li>
+	</ol>
+
+<h2>Requirement analysis</h2>
+ 
+<p>Il sistema da realizzare è una simulazione del gioco Game of Life.</p>
+
+<p>Il gioco è basato su una griglia bidimensionale composta da celle.
+Ogni cella può assumere due stati:</p>
+
+<ul>
+<li>viva</li>
+<li>morta</li>
+</ul>
+
+<p>La configurazione della griglia evolve nel tempo attraverso passi discreti
+chiamati <b>generazioni</b>.</p>
+
+<p>Ad ogni generazione lo stato di ogni cella viene aggiornato in base al numero
+di celle vive presenti nelle otto posizioni adiacenti.</p>
+
+<p>Dall'analisi dei requisiti emergono i seguenti elementi principali del sistema:</p>
+
+<ul>
+<li>la griglia di gioco</li>
+<li>le celle della griglia</li>
+<li>le regole di evoluzione</li>
+<li>il meccanismo di avanzamento delle generazioni</li>
+</ul>
+
+<p>Il sistema deve quindi gestire una struttura dati che rappresenti la griglia
+e fornire le operazioni necessarie per calcolare le generazioni successive
+e visualizzare lo stato corrente della simulazione.</p>
+
+<h2>Problem analysis</h2>
+ 
+<p>Una prima analisi del problema
+si può trovare in  <a class="reference external" href="_static/docs/Protobook.pdf#section.6.4">Analsi del problema GofLife</a>,
+mentre un primo schema organizzativo del sistema da realizzare
+si trova in <a class="reference external" href="_static/docs/Protobook.pdf#subsection.6.4.2">Progetto ConwayLife26</a></p>
+<p>Lo schema rappresenta un <a class="reference external" href="_static/docs/Protobook.pdf#subsection.4.10.3">modello del sistema</a>,  espresso
+utilizzando notazioni grafiche in <a class="reference external" href="_static/docs/Protobook.pdf#subsection.4.10.4">stile UML</a>.
+Lo riportiamo qui sotto, come <strong>prodotto della analisi del problema</strong>, prima ancora che di progetto.</p>
+<p>Infatti:</p>
+<ol class="arabic simple">
+<li><p>I requisiti menzionano una <em>Griglia di Celle</em>. Questi termini sono formalizzati nelle classi <strong>Grid</strong> e <strong>Cell</strong>
+ritenendo adeguato che questi enti siano realizzati in software come <a class="reference external" href="_static/docs/Protobook.pdf#subsection.5.2.1">POJO</a>.</p></li>
+<li><p>Le <a class="reference external" href="_static/docs/Protobook.pdf#chapter.6">regole di Conway</a> sono il ‘core business’ applicativo e
+fanno riferimento a Grid. La specifica di queste regole è affidata a un altro  POJO, istanza di una classe <strong>Life</strong>.</p></li>
+<li><p>Il gico è zero-player, ma deve essere controllato dall’utente attraverso dispostivi di I/O. Come analisti, non
+riteniamo che questo compito sia responsabilità di nessuna delle classi precedenti, per cui si ritiene necessario
+introdurre un nuovo POJO, di classe <strong>LifeController</strong></p></li>
+<li><p>I dispositivi di I/O potrebbero essere i più diversi. Occorre rendere <em>LifeController</em> indipendente dai
+dettagli tecnologici dell’I/O definiìendo opportuni <strong>contratti</strong> (formalizzati come <strong>interface</strong> Java)
+che i dispostivi dovrenno rispettare.</p></li>
+</ol>
+
+<h2>Test plans</h2> 
+
+<p>
+L'obiettivo del piano di testing è verificare che il sistema soddisfi i requisiti
+funzionali del Game of Life.
+I test vengono definiti già nella fase di analisi per rendere verificabili
+gli effetti del sistema.
+</p>
+
+<p>I principali test funzionali previsti sono i seguenti.</p>
+
+<ul>
+
+<li>
+<b>Test di inizializzazione della griglia</b><br>
+Dato uno stato iniziale della griglia, il sistema deve rappresentarlo correttamente.
+</li>
+
+<li>
+<b>Test delle regole di evoluzione</b><br>
+Verificare che l'evoluzione delle celle rispetti le regole del Game of Life.
+</li>
+
+<li>
+<b>Test della morte per isolamento</b><br>
+Una cella viva con meno di due vicini vivi deve diventare morta
+nella generazione successiva.
+</li>
+
+<li>
+<b>Test della sopravvivenza</b><br>
+Una cella viva con due o tre vicini vivi deve rimanere viva.
+</li>
+
+<li>
+<b>Test della morte per sovrappopolazione</b><br>
+Una cella viva con più di tre vicini vivi deve morire.
+</li>
+
+<li>
+<b>Test della nascita di una cella</b><br>
+Una cella morta con esattamente tre vicini vivi deve diventare viva.
+</li>
+
+<li>
+<b>Test di evoluzione della griglia</b><br>
+Data una configurazione iniziale nota, il sistema deve produrre
+la generazione successiva attesa.
+</li>
+
+</ul>
+
+<p>
+I test saranno inizialmente eseguiti come test funzionali e successivamente
+automatizzati tramite test di unità durante la fase di implementazione.
+</p>
+
+<h2>Project</h2> 
+
+<p>
+Il progetto viene sviluppato utilizzando il linguaggio Java e il sistema
+di build Gradle.
+Il codice sorgente è organizzato secondo la struttura standard dei
+progetti Java.
+</p>
+
+<p>
+Il progetto è organizzato nei seguenti componenti principali.
+</p>
+
+<ul>
+
+<li>
+<b>Grid</b><br>
+Rappresenta la griglia di gioco e gestisce lo stato delle celle.
+</li>
+
+<li>
+<b>Cell</b><br>
+Rappresenta una singola cella della griglia e il suo stato
+(viva o morta).
+</li>
+
+<li>
+<b>GameOfLife</b><br>
+Contiene la logica di evoluzione del sistema e implementa
+le regole del gioco.
+</li>
+
+<li>
+<b>Main</b><br>
+Gestisce l'avvio dell'applicazione e l'esecuzione della simulazione.
+</li>
+
+</ul>
+
+<p>
+Il codice sarà organizzato nel package <b>conway</b> all'interno
+del source folder <b>src/main/java</b>.
+</p>
+
+<p>
+Durante lo sviluppo verranno introdotti test automatici per verificare
+il corretto funzionamento dei moduli principali del sistema.
+</p>
+
+<h2>Testing</h2> 
+ 
+
+<h2>Deployment</h2> 
+
+ 
+<h2>Maintenance</h2> 
+ 
+<!-- USEFUL
+<table style="width:100%" border="1">
+<tr>
+<td style="width:50%">
+</td>
+<td></td>
+</tr>
+</table>
+-->
+	      	
+<br/><br/> 	
+</div>  
+
+<div style="background-color:rgba(86, 56, 253, 0.9); width:60%;text-align:left;color:white">
+By studentName email: roberto.iervese@studio.unibo.it, 
+<!-- <img src="./img/mbot-S.jpg" alt="mbot" width="15%" height="15%"> -->
+<img src="./img/emiglio.png" alt="emiglio" width="8%" height="8%">
+GIT repo: https://github.com/robert4522/issLab2026.git
+</div> 
+</body>
+</html>
